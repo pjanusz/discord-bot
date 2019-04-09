@@ -1,0 +1,46 @@
+{
+    "token": "", //discord app token
+    "prefix": ".", //bot command prefix
+    "separator": "|", //args separator
+    "embedDefaultColor": 3447003,
+    "commands": { //base commands
+        "showHelp": "help",
+        "deleteMessages": "del",
+        "playingAgame": "playing",
+        "roleMembers": "members",
+        "serverInfo": "server",
+        "roleManagement": "roles",
+        "botSay": "say",
+        "hideSpoiler": "spoiler",
+        "moveMessages": "move"
+    },
+    "filter": { 
+        "channel": "",
+        "filters": {
+            "filter1": "",
+            "filter2": ""
+        }
+    },
+    "spoiler": {
+        "reaction": "👁",
+        "messageTitlePrefix": "**SPOILER!**"
+    },
+    "roleManagement": {
+        "channel": "",
+        "categories": [],
+        "commands": {
+            "addChannel": "channel",
+            "addMessage": "category",
+            "addRole": "add",
+            "remove": {
+                "main": "remove",
+                "channel": "channel",
+                "category": "category",
+                "role": "role"
+            }
+        }
+    },
+    "botSay": {
+        "embedCommand": "embed"
+    }
+}
